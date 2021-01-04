@@ -20,25 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5710608c-d1eb-4c79-ac51-433dd3222c41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/learn_rpc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http_rpc_test/server/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json_rpc_test/server/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_rpc_test/client/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_rpc_test/client_proxy/client_proxy.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_rpc_test/handler/handler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_rpc_test/server/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_test/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_test/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_test/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_test/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_test/.idea/python_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_test/rpc_test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_test/rpc_test/go_json_rpc_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc_test/client/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc_test/server/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_test/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_test/grpc_hello/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_test/grpc_hello/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_test/grpc_hello/proto/hello.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_test/grpc_hello/proto/hello_pb2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_test/grpc_hello/proto/hello_pb2_grpc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_test/grpc_hello/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_test/rpc_test/hello.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_test/rpc_test/hello_pb2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_test/rpc_test/hello_pb2_grpc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_test/rpc_test/protobuf_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +149,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
