@@ -17,6 +17,6 @@ if __name__ == '__main__':
     hello_pb2_grpc.add_GreeterServicer_to_server(Greeter(), server)
     # 3.启动server
     # server.add_insecure_port('0.0.0.0:50051')
-    server.add_insecure_port('[::]:50051')
+    server.add_insecure_port('[::]:8080')
     server.start()
     server.wait_for_termination()

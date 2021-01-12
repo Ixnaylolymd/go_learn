@@ -17,9 +17,9 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='hello.proto',
   package='',
   syntax='proto3',
-  serialized_options=None,
+  serialized_options=b'Z\007.;proto',
   create_key=_descriptor._internal_create_key,
-  serialized_pb=b'\n\x0bhello.proto\"\x1c\n\x0cHelloRequest\x12\x0c\n\x04name\x18\x01 \x01(\t\"\x1d\n\nHelloReply\x12\x0f\n\x07message\x18\x01 \x01(\t23\n\x07Greeter\x12(\n\x08SayHello\x12\r.HelloRequest\x1a\x0b.HelloReply\"\x00\x62\x06proto3'
+  serialized_pb=b'\n\x0bhello.proto\"\x1c\n\x0cHelloRequest\x12\x0c\n\x04name\x18\x01 \x01(\t\"\x1d\n\nHelloReply\x12\x0f\n\x07message\x18\x01 \x01(\t23\n\x07Greeter\x12(\n\x08SayHello\x12\r.HelloRequest\x1a\x0b.HelloReply\"\x00\x42\tZ\x07.;protob\x06proto3'
 )
 
 
@@ -107,6 +107,7 @@ HelloReply = _reflection.GeneratedProtocolMessageType('HelloReply', (_message.Me
 _sym_db.RegisterMessage(HelloReply)
 
 
+DESCRIPTOR._options = None
 
 _GREETER = _descriptor.ServiceDescriptor(
   name='Greeter',

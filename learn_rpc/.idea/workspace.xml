@@ -23,27 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5710608c-d1eb-4c79-ac51-433dd3222c41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_test/client/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_test/proto/hello.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_test/server/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/protoc-3.14.0-win64/bin/protoc.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/protoc-3.14.0-win64/include/google/protobuf/any.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/protoc-3.14.0-win64/include/google/protobuf/api.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/protoc-3.14.0-win64/include/google/protobuf/compiler/plugin.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/protoc-3.14.0-win64/include/google/protobuf/descriptor.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/protoc-3.14.0-win64/include/google/protobuf/duration.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/protoc-3.14.0-win64/include/google/protobuf/empty.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/protoc-3.14.0-win64/include/google/protobuf/field_mask.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/protoc-3.14.0-win64/include/google/protobuf/source_context.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/protoc-3.14.0-win64/include/google/protobuf/struct.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/protoc-3.14.0-win64/include/google/protobuf/timestamp.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/protoc-3.14.0-win64/include/google/protobuf/type.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/protoc-3.14.0-win64/include/google/protobuf/wrappers.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/protoc-3.14.0-win64/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/protoc-3.14.0-win64/将bin路径加入环境变量.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc_test/proto/hello.pb.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc_test/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/grpc_test/client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc_test/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/grpc_test/server/server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,31 +76,22 @@
       <recent name="D:\Github\go_learn\learn_rpc\rpc_test" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build client.go (1)">
-    <configuration name="go build client.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learn_rpc" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/rpc_test/client/client.go" />
-      <package value="learn_rpc" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build client.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learn_rpc" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/json_rpc_test/client/client.go" />
-      <package value="learn_rpc" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build server.go">
     <configuration name="go build client.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn_rpc" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/http_rpc_test/client/client.go" />
       <package value="learn_rpc" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build learn_rpc/grpc_test/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learn_rpc" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/grpc_test/client/client.go" />
+      <package value="learn_rpc/grpc_test/client" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -137,13 +113,22 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learn_rpc" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/grpc_test/server/server.go" />
+      <package value="learn_rpc" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build server.go" />
+        <item itemvalue="Go Build.go build learn_rpc/grpc_test/client" />
         <item itemvalue="Go Build.go build learn_rpc/rpc_test/server" />
         <item itemvalue="Go Build.go build learn_rpc/new_rpc_test/server" />
         <item itemvalue="Go Build.go build client.go" />
-        <item itemvalue="Go Build.go build client.go (2)" />
-        <item itemvalue="Go Build.go build client.go (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -183,22 +168,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="691" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610346256831" />
-    <state width="916" height="282" key="GridCell.Tab.0.bottom" timestamp="1608548644275">
+    <state width="1860" height="276" key="GridCell.Tab.0.bottom" timestamp="1610437762327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608548644275" />
-    <state width="916" height="282" key="GridCell.Tab.0.center" timestamp="1608548644275">
+    <state width="1860" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610437762327" />
+    <state width="1860" height="276" key="GridCell.Tab.0.center" timestamp="1610437762327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608548644275" />
-    <state width="916" height="282" key="GridCell.Tab.0.left" timestamp="1608548644275">
+    <state width="1860" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610437762327" />
+    <state width="1860" height="276" key="GridCell.Tab.0.left" timestamp="1610437762327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608548644275" />
-    <state width="916" height="282" key="GridCell.Tab.0.right" timestamp="1608548644275">
+    <state width="1860" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610437762327" />
+    <state width="1860" height="276" key="GridCell.Tab.0.right" timestamp="1610437762327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608548644275" />
+    <state width="1860" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610437762327" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1610350828300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

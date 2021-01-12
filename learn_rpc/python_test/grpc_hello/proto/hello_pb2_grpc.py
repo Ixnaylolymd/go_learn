@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-from grpc_hello.proto import hello_pb2 as hello__pb2
+from . import hello_pb2 as hello__pb2
 
 
 class GreeterStub(object):
